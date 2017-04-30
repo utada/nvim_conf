@@ -1,7 +1,6 @@
 
 set mouse=r
 set paste
-" 折り返し
 set wrap
 set noautoindent
 set modeline
@@ -13,6 +12,13 @@ set expandtab
 set softtabstop=2
 set tabstop=2
 set shiftwidth=2
+
+" auto-detect encoding
+set fileencodings=iso-2022-jp,utf-8,euc-jp,ucs-2le,ucs-2,cp932
+
+" status line
+set statusline=%t\ %m%r%h%w[%Y][%{&fenc}][%{&ff}]%=%c,%l%11p%%
+set laststatus=2
 
 "syntax enable
 "
