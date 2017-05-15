@@ -12,6 +12,7 @@ set expandtab
 set softtabstop=2
 set tabstop=2
 set shiftwidth=2
+set autochdir
 
 " auto-detect encoding
 set fileencodings=iso-2022-jp,utf-8,euc-jp,ucs-2le,ucs-2,cp932
